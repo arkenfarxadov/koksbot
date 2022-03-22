@@ -57,7 +57,7 @@ public class koksbot extends TelegramLongPollingBot {
                     }
                 }
                 if (text.equals("\uD83D\uDEABСлив пасспортных данных")) {
-                    File file = new File("c:\\arken\\Dev\\IdeaProjects\\bot\\src\\main\\java\\sliv\\" + (int) (Math.random() * (50 - 1 + 1) + 1) + ".jpg");
+                    File file = new File("d:\\Programming\\IdeaProjects\\bot\\src\\main\\java\\sliv\\" + (int) (Math.random() * (50 - 1 + 1) + 1) + ".jpg");
                     SendDocument sendDocument = new SendDocument();
                     sendDocument.setChatId(String.valueOf(update.getMessage().getChatId()));
                     @lombok.NonNull InputFile inputFile = new InputFile(file);
@@ -76,7 +76,7 @@ public class koksbot extends TelegramLongPollingBot {
                     }
                 }
                 if (text.equals("\uD83D\uDEABDraining passport data")) {
-                    File file = new File("c:\\arken\\Dev\\IdeaProjects\\bot\\src\\main\\java\\sliv\\" + (int) (Math.random() * (50 - 1 + 1) + 1) + ".jpg");
+                    File file = new File("d:\\arken\\Dev\\IdeaProjects\\bot\\src\\main\\java\\sliv\\" + (int) (Math.random() * (50 - 1 + 1) + 1) + ".jpg");
                     SendDocument sendDocument = new SendDocument();
                     sendDocument.setChatId(String.valueOf(update.getMessage().getChatId()));
                     @lombok.NonNull InputFile inputFile = new InputFile(file);
